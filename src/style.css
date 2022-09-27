@@ -1,3 +1,29 @@
 body {
     background-color: hotpink;
+    margin: 0;
+    
+}
+
+.main {
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('https://www.icegif.com/wp-content/uploads/2021/10/icegif-469.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.contentBox{
+    height: 60%;
+    width: 30%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
 }
