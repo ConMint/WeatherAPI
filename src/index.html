@@ -4,13 +4,25 @@
     <meta charset="utf-8" />
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Getting Started</title>
+    <title>CheckTheWeather</title>
   </head>
   <body>
     <div class="main">
       <div class="contentBox">
-        <img id="weatherImg" />
-        <input /><button id="searchBtn">Search</button>
+        <h1>CheckTheWeather</h1>
+        <div class="search">
+          <input placeholder="Search for a city..." /><button id="searchBtn">
+            Search
+          </button>
+        </div>
+        <div id="cityName">City Name</div>
+        <div class="weatherHead">
+          <div id="cityTemp">Placeholder</div>
+          <img id="weatherImg" />
+        </div>
+        <div id="weatherInfo"></div>
+        <button id = 'changeMode'> &#176C / &#176F
+        </button>
       </div>
     </div>
   </body>
